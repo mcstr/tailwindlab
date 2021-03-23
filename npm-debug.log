@@ -1,0 +1,408 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-D',
+1 verbose cli   'tailwindcss@latest',
+1 verbose cli   'postcss@latest',
+1 verbose cli   'autoprefixer@latest' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tailwindcss@latest
+8 silly fetchPackageMetaData postcss@latest
+9 silly fetchPackageMetaData autoprefixer@latest
+10 silly fetchNamedPackageData tailwindcss
+11 silly mapToRegistry name tailwindcss
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/tailwindcss
+15 silly fetchNamedPackageData postcss
+16 silly mapToRegistry name postcss
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/postcss
+20 silly fetchNamedPackageData autoprefixer
+21 silly mapToRegistry name autoprefixer
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+25 verbose request uri https://registry.npmjs.org/tailwindcss
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 4:43:42 PM
+28 verbose request id fdcf4d98cbfa0311
+29 http request GET https://registry.npmjs.org/tailwindcss
+30 verbose request uri https://registry.npmjs.org/postcss
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 4:43:42 PM
+33 http request GET https://registry.npmjs.org/postcss
+34 verbose request uri https://registry.npmjs.org/autoprefixer
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 4:43:42 PM
+37 http request GET https://registry.npmjs.org/autoprefixer
+38 http 200 https://registry.npmjs.org/tailwindcss
+39 verbose headers { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'transfer-encoding': 'chunked',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'set-cookie':
+39 verbose headers    [ '__cfduid=d97ca81b4469e8c5ea80541761ce4d2ad1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+39 verbose headers   'cf-ray': '63408982adcb414a-HAM',
+39 verbose headers   age: '3644',
+39 verbose headers   'cache-control': 'public, max-age=300',
+39 verbose headers   etag: 'W/"0100b7f8d06d32ba088af9af2669fe0d"',
+39 verbose headers   'last-modified': 'Wed, 17 Mar 2021 21:45:01 GMT',
+39 verbose headers   vary: 'accept-encoding, accept',
+39 verbose headers   'cf-cache-status': 'HIT',
+39 verbose headers   'cf-request-id': '08fc3445a60000414a79012000000001',
+39 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 verbose headers   server: 'cloudflare',
+39 verbose headers   'content-encoding': 'gzip' }
+40 silly get cb [ 200,
+40 silly get   { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+40 silly get     'content-type': 'application/json',
+40 silly get     'transfer-encoding': 'chunked',
+40 silly get     connection: 'keep-alive',
+40 silly get     'set-cookie':
+40 silly get      [ '__cfduid=d97ca81b4469e8c5ea80541761ce4d2ad1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+40 silly get     'cf-ray': '63408982adcb414a-HAM',
+40 silly get     age: '3644',
+40 silly get     'cache-control': 'public, max-age=300',
+40 silly get     etag: 'W/"0100b7f8d06d32ba088af9af2669fe0d"',
+40 silly get     'last-modified': 'Wed, 17 Mar 2021 21:45:01 GMT',
+40 silly get     vary: 'accept-encoding, accept',
+40 silly get     'cf-cache-status': 'HIT',
+40 silly get     'cf-request-id': '08fc3445a60000414a79012000000001',
+40 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 silly get     server: 'cloudflare',
+40 silly get     'content-encoding': 'gzip' } ]
+41 verbose get saving tailwindcss to /home/mcstr/.npm/registry.npmjs.org/tailwindcss/.cache.json
+42 verbose makeDirectory /home/mcstr/.npm creation not in flight; initializing
+43 silly makeDirectory /home/mcstr/.npm uid: 1000 gid: 1000
+44 http 200 https://registry.npmjs.org/postcss
+45 verbose headers { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'transfer-encoding': 'chunked',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'set-cookie':
+45 verbose headers    [ '__cfduid=daaa05783385a70e19f1ffa0c2a915e7f1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+45 verbose headers   'cf-ray': '63408982bd4fd47b-HAM',
+45 verbose headers   age: '2185',
+45 verbose headers   'cache-control': 'public, max-age=300',
+45 verbose headers   etag: 'W/"68c4fae64bdb520c6f855ae5d71a4a98"',
+45 verbose headers   'last-modified': 'Tue, 09 Mar 2021 22:04:53 GMT',
+45 verbose headers   vary: 'accept-encoding, accept',
+45 verbose headers   'cf-cache-status': 'HIT',
+45 verbose headers   'cf-request-id': '08fc3445b10000d47bc2af6000000001',
+45 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 verbose headers   server: 'cloudflare',
+45 verbose headers   'content-encoding': 'gzip' }
+46 silly get cb [ 200,
+46 silly get   { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+46 silly get     'content-type': 'application/json',
+46 silly get     'transfer-encoding': 'chunked',
+46 silly get     connection: 'keep-alive',
+46 silly get     'set-cookie':
+46 silly get      [ '__cfduid=daaa05783385a70e19f1ffa0c2a915e7f1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+46 silly get     'cf-ray': '63408982bd4fd47b-HAM',
+46 silly get     age: '2185',
+46 silly get     'cache-control': 'public, max-age=300',
+46 silly get     etag: 'W/"68c4fae64bdb520c6f855ae5d71a4a98"',
+46 silly get     'last-modified': 'Tue, 09 Mar 2021 22:04:53 GMT',
+46 silly get     vary: 'accept-encoding, accept',
+46 silly get     'cf-cache-status': 'HIT',
+46 silly get     'cf-request-id': '08fc3445b10000d47bc2af6000000001',
+46 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 silly get     server: 'cloudflare',
+46 silly get     'content-encoding': 'gzip' } ]
+47 verbose get saving postcss to /home/mcstr/.npm/registry.npmjs.org/postcss/.cache.json
+48 http 200 https://registry.npmjs.org/autoprefixer
+49 verbose headers { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'transfer-encoding': 'chunked',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'set-cookie':
+49 verbose headers    [ '__cfduid=d8a3c44dec6cdda5519e6849859ba9e7c1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+49 verbose headers   'cf-ray': '63408982a8bb416e-HAM',
+49 verbose headers   age: '3761',
+49 verbose headers   'cache-control': 'public, max-age=300',
+49 verbose headers   etag: 'W/"9f33b8556c605283866cbf7530c86ebb"',
+49 verbose headers   'last-modified': 'Fri, 05 Mar 2021 14:43:04 GMT',
+49 verbose headers   vary: 'accept-encoding, accept',
+49 verbose headers   'cf-cache-status': 'HIT',
+49 verbose headers   'cf-request-id': '08fc3445ab0000416e85116000000001',
+49 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 verbose headers   server: 'cloudflare',
+49 verbose headers   'content-encoding': 'gzip' }
+50 silly get cb [ 200,
+50 silly get   { date: 'Mon, 22 Mar 2021 15:43:42 GMT',
+50 silly get     'content-type': 'application/json',
+50 silly get     'transfer-encoding': 'chunked',
+50 silly get     connection: 'keep-alive',
+50 silly get     'set-cookie':
+50 silly get      [ '__cfduid=d8a3c44dec6cdda5519e6849859ba9e7c1616427822; expires=Wed, 21-Apr-21 15:43:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+50 silly get     'cf-ray': '63408982a8bb416e-HAM',
+50 silly get     age: '3761',
+50 silly get     'cache-control': 'public, max-age=300',
+50 silly get     etag: 'W/"9f33b8556c605283866cbf7530c86ebb"',
+50 silly get     'last-modified': 'Fri, 05 Mar 2021 14:43:04 GMT',
+50 silly get     vary: 'accept-encoding, accept',
+50 silly get     'cf-cache-status': 'HIT',
+50 silly get     'cf-request-id': '08fc3445ab0000416e85116000000001',
+50 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+50 silly get     server: 'cloudflare',
+50 silly get     'content-encoding': 'gzip' } ]
+51 verbose get saving autoprefixer to /home/mcstr/.npm/registry.npmjs.org/autoprefixer/.cache.json
+52 silly install normalizeTree
+53 silly loadCurrentTree Finishing
+54 silly loadIdealTree Starting
+55 silly install loadIdealTree
+56 silly cloneCurrentTree Starting
+57 silly install cloneCurrentTreeToIdealTree
+58 silly cloneCurrentTree Finishing
+59 silly loadShrinkwrap Starting
+60 silly install loadShrinkwrap
+61 silly loadShrinkwrap Finishing
+62 silly loadAllDepsIntoIdealTree Starting
+63 silly install loadAllDepsIntoIdealTree
+64 silly resolveWithNewModule tailwindcss@2.0.4 checking installable status
+65 silly cache add args [ 'tailwindcss@latest', null ]
+66 verbose cache add spec tailwindcss@latest
+67 silly resolveWithNewModule postcss@8.2.8 checking installable status
+68 silly cache add args [ 'postcss@latest', null ]
+69 verbose cache add spec postcss@latest
+70 silly resolveWithNewModule autoprefixer@10.2.5 checking installable status
+71 silly cache add args [ 'autoprefixer@latest', null ]
+72 verbose cache add spec autoprefixer@latest
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'tailwindcss@latest',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'tailwindcss',
+73 silly cache add   rawSpec: 'latest',
+73 silly cache add   spec: 'latest',
+73 silly cache add   type: 'tag' }
+74 silly addNamed tailwindcss@latest
+75 verbose addNamed "latest" is being treated as a dist-tag for tailwindcss
+76 info addNameTag [ 'tailwindcss', 'latest' ]
+77 silly mapToRegistry name tailwindcss
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/tailwindcss
+81 verbose addNameTag registry:https://registry.npmjs.org/tailwindcss not in flight; fetching
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'postcss@latest',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'postcss',
+82 silly cache add   rawSpec: 'latest',
+82 silly cache add   spec: 'latest',
+82 silly cache add   type: 'tag' }
+83 silly addNamed postcss@latest
+84 verbose addNamed "latest" is being treated as a dist-tag for postcss
+85 info addNameTag [ 'postcss', 'latest' ]
+86 silly mapToRegistry name postcss
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/postcss
+90 verbose addNameTag registry:https://registry.npmjs.org/postcss not in flight; fetching
+91 silly cache add parsed spec Result {
+91 silly cache add   raw: 'autoprefixer@latest',
+91 silly cache add   scope: null,
+91 silly cache add   name: 'autoprefixer',
+91 silly cache add   rawSpec: 'latest',
+91 silly cache add   spec: 'latest',
+91 silly cache add   type: 'tag' }
+92 silly addNamed autoprefixer@latest
+93 verbose addNamed "latest" is being treated as a dist-tag for autoprefixer
+94 info addNameTag [ 'autoprefixer', 'latest' ]
+95 silly mapToRegistry name autoprefixer
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+99 verbose addNameTag registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+100 verbose get https://registry.npmjs.org/tailwindcss not expired, no request
+101 silly addNameTag next cb for tailwindcss with tag latest
+102 silly addNamed tailwindcss@2.0.4
+103 verbose addNamed "2.0.4" is a plain semver version for tailwindcss
+104 silly mapToRegistry name tailwindcss
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/tailwindcss
+108 verbose addRemoteTarball https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.0.4.tgz not in flight; adding
+109 verbose addRemoteTarball [ 'https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.0.4.tgz',
+109 verbose addRemoteTarball   'cf13e62738c3a27065664e449d93b66ee2945506' ]
+110 verbose get https://registry.npmjs.org/postcss not expired, no request
+111 silly addNameTag next cb for postcss with tag latest
+112 silly addNamed postcss@8.2.8
+113 verbose addNamed "8.2.8" is a plain semver version for postcss
+114 verbose get https://registry.npmjs.org/autoprefixer not expired, no request
+115 silly addNameTag next cb for autoprefixer with tag latest
+116 silly addNamed autoprefixer@10.2.5
+117 verbose addNamed "10.2.5" is a plain semver version for autoprefixer
+118 silly mapToRegistry name postcss
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/postcss
+122 verbose addRemoteTarball https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz not in flight; adding
+123 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz',
+123 verbose addRemoteTarball   '0b90f9382efda424c4f0f69a2ead6f6830d08ece' ]
+124 silly mapToRegistry name autoprefixer
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+128 verbose addRemoteTarball https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.5.tgz not in flight; adding
+129 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.5.tgz',
+129 verbose addRemoteTarball   '096a0337dbc96c0873526d7fef5de4428d05382d' ]
+130 info retry fetch attempt 1 at 4:43:42 PM
+131 info attempt registry request try #1 at 4:43:42 PM
+132 http fetch GET https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.0.4.tgz
+133 info retry fetch attempt 1 at 4:43:42 PM
+134 info attempt registry request try #1 at 4:43:42 PM
+135 http fetch GET https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz
+136 info retry fetch attempt 1 at 4:43:42 PM
+137 info attempt registry request try #1 at 4:43:42 PM
+138 http fetch GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.5.tgz
+139 http fetch 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.5.tgz
+140 http fetch 200 https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz
+141 http fetch 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.0.4.tgz
+142 silly fetchAndShaCheck shasum 096a0337dbc96c0873526d7fef5de4428d05382d
+143 verbose addTmpTarball /tmp/npm-11810-5d2141b5/registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.5.tgz not in flight; adding
+144 verbose addTmpTarball already have metadata; skipping unpack for autoprefixer@10.2.5
+145 silly fetchAndShaCheck shasum 0b90f9382efda424c4f0f69a2ead6f6830d08ece
+146 verbose addTmpTarball /tmp/npm-11810-5d2141b5/registry.npmjs.org/postcss/-/postcss-8.2.8.tgz not in flight; adding
+147 verbose addTmpTarball already have metadata; skipping unpack for postcss@8.2.8
+148 silly cache afterAdd autoprefixer@10.2.5
+149 verbose afterAdd /home/mcstr/.npm/autoprefixer/10.2.5/package/package.json not in flight; writing
+150 verbose afterAdd /home/mcstr/.npm/autoprefixer/10.2.5/package/package.json written
+151 silly cache afterAdd postcss@8.2.8
+152 verbose afterAdd /home/mcstr/.npm/postcss/8.2.8/package/package.json not in flight; writing
+153 verbose afterAdd /home/mcstr/.npm/postcss/8.2.8/package/package.json written
+154 silly fetchAndShaCheck shasum cf13e62738c3a27065664e449d93b66ee2945506
+155 verbose addTmpTarball /tmp/npm-11810-5d2141b5/registry.npmjs.org/tailwindcss/-/tailwindcss-2.0.4.tgz not in flight; adding
+156 verbose addTmpTarball already have metadata; skipping unpack for tailwindcss@2.0.4
+157 silly cache afterAdd tailwindcss@2.0.4
+158 verbose afterAdd /home/mcstr/.npm/tailwindcss/2.0.4/package/package.json not in flight; writing
+159 verbose afterAdd /home/mcstr/.npm/tailwindcss/2.0.4/package/package.json written
+160 silly fetchNamedPackageData browserslist
+161 silly mapToRegistry name browserslist
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+165 silly fetchNamedPackageData caniuse-lite
+166 silly mapToRegistry name caniuse-lite
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/caniuse-lite
+170 silly fetchNamedPackageData colorette
+171 silly mapToRegistry name colorette
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/colorette
+175 silly fetchNamedPackageData fraction.js
+176 silly mapToRegistry name fraction.js
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry uri https://registry.npmjs.org/fraction.js
+180 silly fetchNamedPackageData normalize-range
+181 silly mapToRegistry name normalize-range
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+185 silly fetchNamedPackageData postcss-value-parser
+186 silly mapToRegistry name postcss-value-parser
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+190 verbose request uri https://registry.npmjs.org/browserslist
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 4:43:44 PM
+193 http request GET https://registry.npmjs.org/browserslist
+194 verbose request uri https://registry.npmjs.org/caniuse-lite
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 4:43:44 PM
+197 http request GET https://registry.npmjs.org/caniuse-lite
+198 verbose request uri https://registry.npmjs.org/colorette
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 4:43:44 PM
+201 http request GET https://registry.npmjs.org/colorette
+202 verbose request uri https://registry.npmjs.org/fraction.js
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 4:43:44 PM
+205 http request GET https://registry.npmjs.org/fraction.js
+206 verbose request uri https://registry.npmjs.org/normalize-range
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 4:43:44 PM
+209 http request GET https://registry.npmjs.org/normalize-range
+210 verbose request uri https://registry.npmjs.org/postcss-value-parser
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 4:43:44 PM
+213 http request GET https://registry.npmjs.org/postcss-value-parser
+214 http 200 https://registry.npmjs.org/colorette
+215 verbose headers { date: 'Mon, 22 Mar 2021 15:43:44 GMT',
+215 verbose headers   'content-type': 'application/json',
+215 verbose headers   'transfer-encoding': 'chunked',
+215 verbose headers   connection: 'keep-alive',
+215 verbose headers   'set-cookie':
+215 verbose headers    [ '__cfduid=d233753851ebec4d6bb9e4a9d5f8c0d041616427824; expires=Wed, 21-Apr-21 15:43:44 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+215 verbose headers   'cf-ray': '6340898dbdba414a-HAM',
+215 verbose headers   age: '647',
+215 verbose headers   'cache-control': 'public, max-age=300',
+215 verbose headers   etag: 'W/"d20221ddc12b16eab88f23524eade178"',
+215 verbose headers   'last-modified': 'Thu, 25 Feb 2021 13:26:18 GMT',
+215 verbose headers   vary: 'accept-encoding, accept',
+215 verbose headers   'cf-cache-status': 'HIT',
+215 verbose headers   'cf-request-id': '08fc344c980000414abb98c000000001',
+215 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+215 verbose headers   server: 'cloudflare',
+215 verbose headers   'content-encoding': 'gzip' }
+216 silly get cb [ 200,
+216 silly get   { date: 'Mon, 22 Mar 2021 15:43:44 GMT',
+216 silly get     'content-type': 'application/json',
+216 silly get     'transfer-encoding': 'chunked',
+216 silly get     connection: 'keep-alive',
+216 silly get     'set-cookie':
+216 silly get      [ '__cfduid=d233753851ebec4d6bb9e4a9d5f8c0d041616427824; expires=Wed, 21-Apr-21 15:43:44 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+216 silly get     'cf-ray': '6340898dbdba414a-HAM',
+216 silly get     age: '647',
+216 silly get     'cache-control': 'public, max-age=300',
+216 silly get     etag: 'W/"d20221ddc12b16eab88f23524eade178"',
+216 silly get     'last-modified': 'Thu, 25 Feb 2021 13:26:18 GMT',
+216 silly get     vary: 'accept-encoding, accept',
+216 silly get     'cf-cache-status': 'HIT',
+216 silly get     'cf-request-id': '08fc344c980000414abb98c000000001',
+216 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+216 silly get     server: 'cloudflare',
+216 silly get     'content-encoding': 'gzip' } ]
+217 verbose get saving colorette to /home/mcstr/.npm/registry.npmjs.org/colorette/.cache.json
+218 verbose stack Error: Missing required argument #1
+218 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+218 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+218 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+218 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+218 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+218 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+218 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+218 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+218 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+218 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+219 verbose cwd /home/mcstr/Documents/tailwind_css
+220 error Linux 5.4.0-67-generic
+221 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-D" "tailwindcss@latest" "postcss@latest" "autoprefixer@latest"
+222 error node v8.10.0
+223 error npm  v3.5.2
+224 error code EMISSINGARG
+225 error typeerror Error: Missing required argument #1
+225 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+225 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+225 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+225 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+225 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+225 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+225 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+225 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+225 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+225 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+226 error typeerror This is an error with npm itself. Please report this error at:
+226 error typeerror     <http://github.com/npm/npm/issues>
+227 verbose exit [ 1, true ]
